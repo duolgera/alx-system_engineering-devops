@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(ls  -la) > ls_cwd_content
+output="ls  -la"; eval "$output"; echo "$output" > ls_cwd_content
